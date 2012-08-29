@@ -1,0 +1,23 @@
+﻿body
+{
+    font-size: 11px; 
+    font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+}
+
+#ulbox {
+	width: 200px;
+	height: 200px;
+	border: 2px solid #DDD;
+	border-radius: 8px;
+	float: left;
+    margin:  0 20px;
+	text-align: center;
+    background: #e1e1e1;
+    border: 2px solid #808080;
+}
+
+#ulbox.over {background: #3389a1;}
+ul {float: left; margin: 0;}
+ul li {border-bottom: 1px dotted #DDD; display: block; padding: 5px 0;}
+ul li span {display: block;}
+small {font-size: 11px;}

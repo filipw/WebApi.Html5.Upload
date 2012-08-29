@@ -1,0 +1,18 @@
+     <div id="ulbox">
+        <span>Drop your s*** here...</span>
+    </div>
+    <ul data-bind="template: { name: 'upload-template', foreach: uploads }">
+    </ul>
+    <script type="text/html" id="upload-template">
+        <li><span>Uploaded: <small data-bind="text: name"></small>.</span><span>Size: <small
+            data-bind="text: size"></small>kB</span><span>Server path: <a data-bind="attr:{href: path}, text:path">
+            </a></span></li>
+    </script>
+
+
+
+    <form action="/api/uploading" method="post" enctype="multipart/form-data">
+        <label for="somefile">File</label>
+        <input name="somefile" type="file" multiple />
+        <input type="submit" value="Submit" />
+</form>
