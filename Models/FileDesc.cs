@@ -1,4 +1,5 @@
-﻿using System;
+#Here is the program for the user to interact with the computer
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
